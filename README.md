@@ -1,5 +1,5 @@
 <center><h1><strong>Graphs</strong><h1></center>
-<h2>Definations<h2>
+<h4>Definations<h4>
 <ul>
 <li>Graph is a non-linear data structure which consists of nodes/vertices/points and edges/lines/arcs(used to connect the pair of nodes).</li>
 <li>Graph is a finite set of nodes and edges which is used to connect the pair of nodes.</li>
@@ -15,8 +15,12 @@ Consider a graph pf vertices V(A,B,C,D,E) and edges E((A,B), (B,C), (C,E), (E,D)
 <ul>
 <li>Graphs are used for developing recommandation system for social media applications and ecommerce applications</li>
 <li>graphs are used to represent the flow of computation in computer science.<li>
-<li>Google maps uses graphs for building transportation systems, where intersection of two(or more) roads are considered to be a vertex and the road connecting two vertices is considered to be an edge, thus their navigation system is based on the algorithm to calculate the shortest path between two vertices.<li>
+<li>Google maps uses graphs for building transportation systems, where intersection of two(or more) roads are considered to be a vertex and the road connecting two vertices is considered to be an edge, thus their navigation system is based on the algorithm to calculate the shortest path between two vertices.</li>
+<li>In world wide web,One page will connect to another through link. which is develeped based on graph datastructure</li>
 </ul>
+
+<h4>Types of Graphs</h4>
+
 
 
 
