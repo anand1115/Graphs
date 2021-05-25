@@ -14,7 +14,7 @@ Consider a graph pf vertices V(A,B,C,D,E) and edges E((A,B), (B,C), (C,E), (E,D)
 <h4>Applications</h4>
 <ul>
 <li>Graphs are used for developing recommandation system for social media applications and ecommerce applications</li>
-<li>graphs are used to represent the flow of computation in computer science.<li>
+<li>graphs are used to represent the flow of computation in computer science.</li>
 <li>Google maps uses graphs for building transportation systems, where intersection of two(or more) roads are considered to be a vertex and the road connecting two vertices is considered to be an edge, thus their navigation system is based on the algorithm to calculate the shortest path between two vertices.</li>
 <li>In world wide web,One page will connect to another through link. which is develeped based on graph data structure.</li>
 </ul>
@@ -106,6 +106,54 @@ If the vertex-set of a graph G can be split into two disjoint sets, V1 and V2 , 
 <h4>17.Complete Bipartite Graph</h4>
 A complete bipartite graph is a bipartite graph in which each vertex in the first set is joined to every single vertex in the second set. The complete bipartite graph is denoted by Kx,y where the graph G contains x vertices in the first set and y vertices in the second set.
 <img src="https://www.tutorialspoint.com/discrete_mathematics/images/complete_bipartite.jpg">
+
+<h3>Graph Terminology</h3>
+<h4>Vertex</h4>
+Individual data element of a graph is known as Vertex.
+<br>
+Vertex is also known as node.
+<h4>Edge</h4>
+An Edge is path/line/connecting link betweet two vertices(Endpoints) in the graph.
+<h4>Adjcent vertices</h4>
+if two vertices are said to be adjacent if and only if they are endpoints of an edge.i.e those two vertices must and should form an edge.
+<h4>Incident Edge</h4>
+An Edge said to be an incident edge on a vertex,if the vertex is an endpoint of an edge.
+<h4>Outgoing Edges</h4>
+An Edge is said to be an outgoing edge of a vertx.If and only if edge is directed outwards from the vertex.
+<h4>Incoming Edges</h4>
+An Edge is said to be an Incoming edge of a vertx.if and only id edge is directd inwards to the vertex.
+<h4>Degree</h4>
+A degree of vertex is defined as number of edges which are incident/incoming on the vertex.
+<h4>In-degree</h4>
+Incoming degree of a vertex is defined as number of edges which are incoming to the vertex.
+<h4>Out-degree</h4>
+Outgoing degree of a vertex is defined as number of outgoing edges from thr vertex.
+<h4>Parllel edges</h4>
+if there are more than one edge between same pair of vertices.then they are called as parallel edges.
+<h4>self-loop/cycle</h4>
+self loop is an edge whose end vertices are equal.i.e if an edge exsited within same vertex.
+<h4>Forest</h4>
+A Graph with no cycles is known as Forest.
+<h4>Simple Graph</h4>
+a graph which does not contain any self loops and parellel edges.
+<h4>Path</h4>
+A Path is the sequence of successive edges between two nodes.
+<h4>Length Of Path</h4>
+Length Of Path id defined is number of successive edges between two nodes.
+<h4>Simple Path</h4>
+A Simple Path is the path which is formed by distinct vertices.
+<h4>Source Vertex</h4>
+A vertex whose in-degree is zero is called as source vertex.
+<h4>Sink Vertex</h4>
+A vertex whose out-degree is zero is called as sink vertex.
+<h4>Strongly Connected Graph</h4>
+A graph which contains a directed path from u to v and should contain a directed path from v to u for all pairs of vertices.
+<h4>Weakly connected graph</h4>
+A directed graph is said to be weakly connected if all directed edges are replaced by its undirected edges,it will form a connected graph.
+<h4>Bridge</h4>
+A bridge is an edge whose removal will result the disconnected graph.
+
+
 
 
 
