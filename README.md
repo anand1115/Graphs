@@ -8,7 +8,7 @@
 </ul>
 
 <h4>Example</h4>
-Consider a graph pf vertices V(A,B,C,D,E) and edges E((A,B), (B,C), (C,E), (E,D), (D,B), (D,A)) is represented as follows
+Consider a graph of vertices V(A,B,C,D,E) and edges E((A,B), (B,C), (C,E), (E,D), (D,B), (D,A)) is represented as follows
 <img src="https://static.javatpoint.com/ds/images/graph-definition.png">
 
 <h4>Applications</h4>
